@@ -1,0 +1,48 @@
+/* common styles */
+body {
+    margin: 0px;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+/* common nav styles */
+.navigation-wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.left-colomn {
+    display: flex;
+    align-items: center;
+}
+.contacts-hours-wrappper > .phone {
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: white;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
+
+.icon-colomn > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.address-wrapper {
+    font-family: "Ubuntu Condensed", sans-serif;
+}
